@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wahou Html/Css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- <header>
         <h1>Wahou Html&CSS</h1>
@@ -19,14 +22,61 @@
         </ul>
     </nav> -->
     <main>
-        <article class="player">
-            <div class="imgBx">
-                <img src="asset/img-biglo-oli.png" alt="image de la musique" title="image de la musique">
+        <section class="audio-player">
+            <article class="player">
+                <div class="imgBx">
+                    <img src="asset/img-biglo-oli.png" alt="image de la musique" title="image de la musique">
+                </div>
+                <audio controls>
+                    <source src="asset/bigflo-oli-promesses.mp3" type="audio/mp3">
+                </audio>
+            </article>
+
+            <article class="player">
+                <div class="imgBx">
+                    <img src="asset/img-5-0.png" alt="image de la musique" title="image de la musique">
+                </div>
+                <audio controls>
+                    <source src="asset/hawaii-5-0-generique.mp3" type="audio/mp3">
+                </audio>
+            </article>
+
+            <article class="player">
+                <div class="imgBx">
+                    <img src="asset/legend.jpg" alt="image de la musique" title="image de la musique">
+                </div>
+                <audio controls>
+                    <source
+                        src="asset/legends-never-die-ft-against-the-current-official-audio-worlds-2017-league-of-legends.mp3"
+                        type="audio/mp3">
+                </audio>
+            </article>
+        </section>
+        <section class="section_pizza">
+            <div class="pizza pizzaAnanas">
+                <h2>Ananas</h2>
+                <div class="container">
+                    <div class="star"><span></span></div>
+                    <div class="ananas"></div>
+                </div>
             </div>
-            <audio controls>
-                <source src="asset/bigflo-oli-promesses.mp3" type="audio/mp3">
-            </audio>
-        </article>
+            <div class="pizza pizzaCheese">
+                <h2>4 Fromages</h2>
+                <div class="container">
+                    <div class="star"><span></span></div>
+                    <div class="cheese"></div>
+                </div>
+            </div>
+        </section>
+        <section class="psyckedelique">
+            <div class="box_psy">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
