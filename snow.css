@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: url("asset/snowdown.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.snow1 {
+    background: url("asset/neige1.png");
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateOneSnow 10s infinite linear;
+}
+
+
+.snow2 {
+    background: url("asset/neige1.png");
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateTwoSnow 10s infinite linear;
+    background-size: 300px;
+    filter: blur(1px);
+}
+.snow3 {
+    background: url("asset/neige1.png");
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateThreeSnow 10s infinite linear;
+    background-size: 800px;
+    filter: blur(1px);
+}
+
+@keyframes animateOneSnow {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 100px 650px;
+    }
+}
+
+@keyframes animateTwoSnow {
+    0% {
+        background-position: 0px -100px;
+    }
+    100% {
+        background-position: 0px 650px;
+    }
+}
+
+@keyframes animateThreeSnow {
+    0% {
+        background-position: 0px 100px;
+    }
+    100% {
+        background-position: 300px 650px;
+    }
+}
