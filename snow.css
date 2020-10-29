@@ -21,7 +21,6 @@ section {
     animation: animateOneSnow 10s infinite linear;
 }
 
-
 .snow2 {
     background: url("asset/neige1.png");
     width: 100%;
@@ -33,6 +32,7 @@ section {
     background-size: 300px;
     filter: blur(1px);
 }
+
 .snow3 {
     background: url("asset/neige1.png");
     width: 100%;
