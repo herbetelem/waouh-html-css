@@ -71,3 +71,48 @@ section {
         background-position: 300px 650px;
     }
 }
+
+/* .noel {
+    width: 300px;
+    height: 200px;
+    background: url("asset/noel.png");
+    background-size: cover;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    animation: noel_anime 15s linear infinite;
+}
+
+@keyframes noel_anime {
+    0% {
+        top: 150px;
+        left: 150px;
+        transform: rotateX(0deg);
+    }
+
+    20%{
+        top: 300px;
+        left: 450px;
+        transform: rotateX(0deg);
+    }
+    40% {
+        top: 20px;
+        left: 600px;
+        transform: rotateX(0deg);
+    }
+    50% {
+        top: 150px;
+        left: 1300px;
+        transform: rotateX(0deg);
+    }
+    55% {
+        top: 200px;
+        left: 1700px;
+        transform: rotateY(180deg);
+    }
+    70% {
+        top: 600px;
+        left: 1600px;
+        transform: rotateY(180deg);
+    }
+} */
